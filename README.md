@@ -2,7 +2,7 @@
 This is an official site for MCANet model. Currently, we are uploading the output images and results here. Upon the acceptance of the paper, details will be provided.
 
 ## Datasets
-For this research work, we have used Cityscapes, BDD100K and CamVid and BDD100K datasets.
+For this research work, we have used Cityscapes, BDD100K and CamVid datasets.
 * Cityscapes - To access this benchmark, user needs an account. https://www.cityscapes-dataset.com/downloads/ 
 * BDD100K - To access this benchmark, user needs an account. https://doc.bdd100k.com/download.html     
 * CamVid - To access this benchmark, visit this link: http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
