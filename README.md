@@ -13,6 +13,11 @@ To understand the metrics used for model performance evaluation, please  refer h
 ## Results
 We trained our model by the above mentioned benchmarks at different input resolutions. Cityscapes provides 1024 * 2048 px resolution images. We mainly focus full resolution of cityscapes images. For CamVid dataset, we use 640 * 896 px resolution altough original image size is 720 * 960 px. Similarly, we use 768 * 1280 px resolution input images for BDD100K dataset although original size of input image is 720 * 1280 px. For Cityscapes and BDD100K datasets, we use 19 classes, however for Camvid dataset we trained the model with 11 classes (suggested by the literature). 
 
+### Cityscapes test results
+The output of the test set is submitted to Cityscapes evaluation server. To view the test set result evaluated by the server, click the following link:
+https://github.com/tanmaysingha/MCANet/blob/main/Cityscapes_test_results/Cityscapes_submission_results.pdf
+Upon the acceptance of the paper, we will publish the results in Cityscapes leader-board.
+
 ### MCANet prediction on Cityscapes validation sample
 ![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/MCANet_val_prediction.png?raw=true)
   
