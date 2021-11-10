@@ -7,6 +7,32 @@ For this research work, we have used Cityscapes, BDD100K and CamVid datasets.
 * BDD100K - To access this benchmark, user needs an account. https://doc.bdd100k.com/download.html     
 * CamVid - To access this benchmark, visit this link: http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
 
+## Class mapping
+Different datasets provide different class annotations. For instance, Camvid dataset has 32 class labels: Animal, Archway, Bicyclist, Bridge, Building, Car, CartLuggagePram, Child, Column_Pole, Fence, LaneMkgsDriv, LaneMkgsNonDriv, Misc_Text, MotorcycleScooter, OtherMoving, ParkingBlock, Pedestrian, Road, RoadShoulder, Sidewalk, SignSymbol, Sky, SUVPickupTruck, TrafficCone, TrafficLight, Train, Tree, Truck_Bus, Tunnel, VegetationMisc, Void, Wall. However, literature have shown that out of 32 classes, all the existing models are trained by 11 classes: Sky, Building, Pole, Road, Sidewalk, Tree, TrafficLight, Fence, Car, Pedestrian, Bicyclist. Thereby, first 32 class annotations of Camvid are converted to 11 class annotations and then model is trained with 11 class annotations. To improve model performance, we also converted Cityscapes 19 class annotations to 11 class anotation and trained the model first with Cityscapes 11 class annotation, then use the pre-trained weight of Cityscapes to train the model with Camvid 11 class annotations. The following table shows class mapping between Cityscapes and Camvid dataset.
+
+TrainId | Cityscapes classes | Camvid classes   
+--------|--------------------|------------------
+   0    |        Sky         |  Sky
+   1    |      Building      | Building
+   2    |      Building      | Pole
+   3    |        Wall        |  Road 
+   4    |       Fence        |  Sidewalk 
+   5    |        Pole        | Tree
+   6    |   Traffic light    | TrafficLight  
+   7    |   Traffic sign     | Fence
+   8    |    Vegetation      | Car 
+   9    |      Terrain       | Pedestrain   
+  10    |        Sky         | Bicyclist 
+  11    |      Person        |  
+  12    |       Rider        |   Rider
+  13    |        Car         |   
+  14    |      Truck         |  Truck
+  15    |        Bus         |   Bus
+  16    |      Train         |  Train
+  17    |    Motorcycle      | Motorcycle
+  18    |      Bicycle       |  Bicycle
+
+
 ## Metrics
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
 
