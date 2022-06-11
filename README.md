@@ -58,7 +58,7 @@ Upon the acceptance of the paper, test results will be published in the Cityscap
 ![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/City_color_map.png?raw=true)
 
 ### Prediction by different models on Cityscapes validation sample
-![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/MCANet_val_prediction.png?raw=true)
+![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Cityscapes_val_predictions_new.png?raw=true)
 
 ### MCANet prediction on Cityscapes validation sample
 ![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/MCANet_val_prediction.png?raw=true)
