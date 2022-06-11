@@ -51,7 +51,8 @@ We trained our model by the above mentioned benchmarks at different input resolu
 
 ### Cityscapes test results
 The output of the test set is submitted to Cityscapes evaluation server. To view the test set result evaluated by the server, click the following link: https://github.com/tanmaysingha/MCANet/blob/main/Cityscapes_test_results/Cityscapes_submission_results.pdf
-Upon the acceptance of the paper, we will publish the results in Cityscapes leader-board.
+Upon the acceptance of the paper, test results will be published in the Cityscapes evaluation server. Currently, serever provides the following anonymous link of our submission: https://www.cityscapes-dataset.com/anonymous-results/?id=b984f037a1dce36b8b74d3ee5de40378e170cf4be6641172071937a34f1b4fde
+
 
 ### Color map of Cityscapes dataset
 ![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/City_color_map.png?raw=true)
