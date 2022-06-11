@@ -59,14 +59,20 @@ Upon the acceptance of the paper, we will publish the results in Cityscapes lead
 ### MCANet prediction on Cityscapes test samples
 ![Cityscapes_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Cityscapes_test_predictions.png?raw=true)  
 
+### Color map of CamVid dataset
+![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Camvid_Val_MCANet.png?raw=true)
+
 ### MCANet prediction on CamVid validation sample
 ![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Camvid_Val_MCANet.png?raw=true)
 
+### Prediction by other models on CamVid validation sample
+![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/camvid_val_prediction_new.png?raw=true)
+
 ### MCANet prediction on CamVid test samples
-![CamVid_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/camvid_test_predictions.png?raw=true)
+![CamVid_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/camvid_test_predictions_new.png?raw=true)
 
 ### MCANet prediction on BDD100K validation sample
-![BDD100K_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/BDD_Val_MCANet.png?raw=true)
+![BDD100K_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/BDD_val_predictions_new.png?raw=true)
 
 ### MCANet prediction on BDD100K test samples
-![BDD100K_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/BDD_test_predictions.png?raw=true)
+![BDD100K_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/BDD_test_predictions_new.png?raw=true)
