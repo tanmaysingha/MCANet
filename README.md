@@ -60,7 +60,7 @@ Upon the acceptance of the paper, we will publish the results in Cityscapes lead
 ![Cityscapes_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Cityscapes_test_predictions.png?raw=true)  
 
 ### Color map of CamVid dataset
-![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Camvid_Val_MCANet.png?raw=true)
+![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/camvid_color_map.png?raw=true)
 
 ### MCANet prediction on CamVid validation sample
 ![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Camvid_Val_MCANet.png?raw=true)
