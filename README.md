@@ -53,6 +53,12 @@ We trained our model by the above mentioned benchmarks at different input resolu
 The output of the test set is submitted to Cityscapes evaluation server. To view the test set result evaluated by the server, click the following link: https://github.com/tanmaysingha/MCANet/blob/main/Cityscapes_test_results/Cityscapes_submission_results.pdf
 Upon the acceptance of the paper, we will publish the results in Cityscapes leader-board.
 
+### Color map of Cityscapes dataset
+![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/City_color_map.png?raw=true)
+
+### Prediction by different models on Cityscapes validation sample
+![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/MCANet_val_prediction.png?raw=true)
+
 ### MCANet prediction on Cityscapes validation sample
 ![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/MCANet_val_prediction.png?raw=true)
   
