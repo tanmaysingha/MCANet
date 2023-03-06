@@ -2,10 +2,14 @@
 This is an official site for MCANet model. Currently, we are uploading the output images and results here. Upon the acceptance of the paper, details will be provided.
 
 ## Datasets
-For this research work, we have used Cityscapes, BDD100K and CamVid datasets.
-* Cityscapes - To access this benchmark, user needs an account. https://www.cityscapes-dataset.com/downloads/ 
-* BDD100K - To access this benchmark, user needs an account. https://doc.bdd100k.com/download.html     
-* CamVid - To access this benchmark, visit this link: http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
+For this research work, we have used structured and unstructured datasets. Under structured dataset, we used Cityscapes, BDD100K, CamVid and KITTI.
+- Structured dataset-
+   * Cityscapes - To access this benchmark, user needs an account. https://www.cityscapes-dataset.com/downloads/ 
+   * BDD100K - To access this benchmark, user needs an account. https://doc.bdd100k.com/download.html     
+   * CamVid - To access this benchmark, visit this link: http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/
+   * KITTI - To access this benchmark, visit this link: https://www.cvlibs.net/datasets/kitti/raw_data.php
+- Unstructured dataset-
+   * IDD-lite and IDD part 1, part 2 - To access this benchmark, visit this link: https://idd.insaan.iiit.ac.in/
 
 ## Class mapping
 Different datasets provide different class annotations. For instance, Camvid dataset has 32 class labels. Refer this link to know about all 32 classes of Camvid: http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/#ClassLabels. However, literature have shown that all the existing models are trained by 11 classes (Sky, Building, Pole, Road, Sidewalk, Tree, TrafficLight, Fence, Car, Pedestrian, Bicyclist) of Camvid dataset. Thereby, first 32 class annotations of Camvid are converted into 11 class annotations and then model is trained with 11 class annotations. To improve model performance, we also converted Cityscapes 19 class annotations to 11 class anotation and trained the model first with Cityscapes 11 class annotation, then use the pre-trained weight of Cityscapes to train the model with Camvid 11 class annotations. The following table shows the convertion of 32 classes of Camvid dataset to 11 classes.
@@ -57,29 +61,39 @@ Upon the acceptance of the paper, test results will be published in the Cityscap
 ### Color map of Cityscapes dataset
 ![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/City_color_map.png?raw=true)
 
-### Prediction by different models on Cityscapes validation sample
-![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Cityscapes_val_predictions_new.png?raw=true)
+### Prediction by different models using Cityscapes validation sample
+![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Cityscapes_val_predictions.png?raw=true)
+Output produced by (a) ContextNet, (b) FANet, (c) FAST-SCNN, (d) MCANet using Cityscapes validation image.
 
-### MCANet prediction on Cityscapes validation sample
+### MCANet prediction using Cityscapes validation sample
 ![cityscapes_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/MCANet_val_prediction.png?raw=true)
   
-### MCANet prediction on Cityscapes test samples
+### MCANet prediction using Cityscapes test samples
 ![Cityscapes_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Cityscapes_test_predictions.png?raw=true)  
 
 ### Color map of CamVid dataset
 ![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/camvid_color_map.png?raw=true)
 
-### MCANet prediction on CamVid validation sample
+### MCANet prediction using CamVid validation sample
 ![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/Camvid_Val_MCANet.png?raw=true)
 
-### Prediction by other models on CamVid validation sample
+### Prediction by other models using CamVid validation sample
 ![CamVid_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/camvid_val_prediction_new.png?raw=true)
 
-### MCANet prediction on CamVid test samples
+### MCANet prediction using CamVid test samples
 ![CamVid_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/camvid_test_predictions_new.png?raw=true)
 
-### MCANet prediction on BDD100K validation sample
+### MCANet prediction using BDD100K validation sample
 ![BDD100K_val_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/BDD_val_predictions_new.png?raw=true)
 
-### MCANet prediction on BDD100K test samples
+### MCANet prediction using BDD100K test samples
 ![BDD100K_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/BDD_test_predictions_new.png?raw=true)
+
+### MCANet prediction using KITTI test samples
+![KITTI_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/fig_KITTI_predictions.png?raw=true)
+
+### Color map of IDD-lite dataset and MCANet prediction using validation sample
+![IDDlite_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/fig_IDD_lite_colorMap.png?raw=true)
+
+### MCANet prediction using IDD (part 1 & 2) and Cityscapes validation sample on 7 classes
+![IDDlite_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/fig_city_IDD_1Id.png?raw=true)
