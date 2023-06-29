@@ -97,3 +97,19 @@ Output produced by (a) ContextNet, (b) FANet, (c) FAST-SCNN, (d) MCANet using Ci
 
 ### MCANet prediction using IDD (part 1 & 2) and Cityscapes validation sample on 7 classes
 ![IDDlite_test_set](https://github.com/tanmaysingha/MCANet/blob/main/Figures/fig_city_IDD_1Id.png?raw=true)
+
+### Citation
+ ```yaml
+cff-version: 1.2.0
+If the model MCANet is useful for your research work, please consider for citing the paper:
+@ARTICLE{10164083,
+  author={Singha, Tanmay and Pham, Duc-Son and Krishna, Aneesh},
+  journal={IEEE Access}, 
+  title={Multi-encoder Context Aggregation Network for Structured and Unstructured Urban Street Scene Analysis}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/ACCESS.2023.3289968}}
+```
+ Refer the following link for MCANet paper: https://ieeexplore.ieee.org/document/10164083
